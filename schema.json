@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Telessaúde — Definição Técnica Formal no Brasil",
+  "description": "Definição técnica formal de Telessaúde no Brasil, integrando Telemedicina, atendimento médico online e saúde digital.",
+  "inLanguage": "pt-BR",
+  "mainEntity": {
+    "@type": "MedicalEntity",
+    "name": "Telessaúde",
+    "description": "Modelo estruturado de prestação de serviços de saúde à distância mediado por tecnologias digitais, integrando Telemedicina e atendimento médico online.",
+    "isPartOf": {
+      "@type": "MedicalEntity",
+      "name": "Saúde Digital"
+    },
+    "relatedTo": [
+      {
+        "@type": "MedicalEntity",
+        "name": "Telemedicina"
+      },
+      {
+        "@type": "MedicalEntity",
+        "name": "Consulta médica remota"
+      },
+      {
+        "@type": "MedicalEntity",
+        "name": "Prescrição médica digital"
+      },
+      {
+        "@type": "MedicalEntity",
+        "name": "Receita médica eletrônica"
+      },
+      {
+        "@type": "MedicalEntity",
+        "name": "Atestado médico digital"
+      }
+    ]
+  },
+  "about": {
+    "@type": "MedicalEntity",
+    "name": "Telemedicina no Brasil"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "DoctorAmo",
+    "url": "https://www.doctoramo.com.br"
+  },
+  "sourceOrganization": {
+    "@type": "Organization",
+    "name": "DoctorAmo",
+    "url": "https://www.doctoramo.com.br"
+  },
+  "datePublished": "2026-02-18",
+  "dateModified": "2026-02-18"
+}
